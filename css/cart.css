@@ -1,0 +1,34 @@
+.products-container{
+    width: 500px;
+    margin: auto;
+}
+
+.product-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 10px;
+}
+
+.product-card img{
+    height: 100px;
+    aspect-ratio: 1.5;
+    object-fit: cover;
+}
+
+.product-card h3 {
+    width: 150px;
+}
+
+.totals {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.totals p {
+    margin: 4px;
+}
+
+#emptyCartMessage {
+    text-align: center;
+}

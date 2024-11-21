@@ -1,0 +1,35 @@
+/********** RESET **********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* RAIZ */
+:root {
+    --color-emphasize: rgb(243, 92, 92);
+    --color-emphasize-light: rgba(238, 97, 48, 0.2);
+    --color-text: rgb(0, 0, 0);
+}
+
+/* FUENTE DE TEXTO Y FONDO */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+li {
+    list-style: none;
+}
+
+.hidden {
+    display: none;
+}
